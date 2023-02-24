@@ -1,4 +1,4 @@
-#include<iostream>
+п»ї#include<iostream>
 using namespace std;
 
 #define UPPER_LEFT_ANGLE (char)218
@@ -12,7 +12,7 @@ using namespace std;
 #define WHITE_BOX "\xDB\xDB"
 #define BLACK_BOX "\x20\x20"
 /*
-ESCAPE последовательность \х позволяет добавить в строковою константу символ по его Шестнадцатеричному
+ESCAPE РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ \С… РїРѕР·РІРѕР»СЏРµС‚ РґРѕР±Р°РІРёС‚СЊ РІ СЃС‚СЂРѕРєРѕРІРѕСЋ РєРѕРЅСЃС‚Р°РЅС‚Сѓ СЃРёРјРІРѕР» РїРѕ РµРіРѕ РЁРµСЃС‚РЅР°РґС†Р°С‚РµСЂРёС‡РЅРѕРјСѓ
 */
 
 void main()
@@ -27,7 +27,7 @@ void main()
 
 	setlocale(LC_ALL, "");
 	int n;
-	cout << "Введите размер доски: "; cin >> n; n++;
+	cout << "Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ РґРѕСЃРєРё: "; cin >> n; n++;
 	setlocale(LC_ALL, "C");
 	for (int i = 0; i <= n; i++)
 	{
@@ -39,7 +39,7 @@ void main()
 			else if (i == n && j == n) cout << LOWER_RIGHT_ANGLE;
 			else if (i == 0 || i == n) cout << HORIZONTAL_LINE << HORIZONTAL_LINE;
 			else if (j == 0 || j == n) cout << VERTICAL_LINE;
-			//Заменить на Тернарник
+			//Р—Р°РјРµРЅРёС‚СЊ РЅР° РўРµСЂРЅР°СЂРЅРёРє
 			//else if (i % 2 == j % 2)cout << WHITE_BOX << WHITE_BOX;
 			//else cout << BLACK_BOX << BLACK_BOX;
 			//else i % 2 == j % 2 ? cout << WHITE_BOX << WHITE_BOX : cout << BLACK_BOX << BLACK_BOX;
