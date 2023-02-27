@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Сhess", "Сhess\Сhess.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pascal", "Pascal\Pascal.vcxproj", "{EB7A93EE-EC0C-4E97-9545-D46A04C32AB6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Home Jeometry", "Home Jeometry\Home Jeometry.vcxproj", "{82F8544B-D1C9-4CED-955A-735BCE8AB542}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{EB7A93EE-EC0C-4E97-9545-D46A04C32AB6}.Release|x64.Build.0 = Release|x64
 		{EB7A93EE-EC0C-4E97-9545-D46A04C32AB6}.Release|x86.ActiveCfg = Release|Win32
 		{EB7A93EE-EC0C-4E97-9545-D46A04C32AB6}.Release|x86.Build.0 = Release|Win32
+		{82F8544B-D1C9-4CED-955A-735BCE8AB542}.Debug|x64.ActiveCfg = Debug|x64
+		{82F8544B-D1C9-4CED-955A-735BCE8AB542}.Debug|x64.Build.0 = Debug|x64
+		{82F8544B-D1C9-4CED-955A-735BCE8AB542}.Debug|x86.ActiveCfg = Debug|Win32
+		{82F8544B-D1C9-4CED-955A-735BCE8AB542}.Debug|x86.Build.0 = Debug|Win32
+		{82F8544B-D1C9-4CED-955A-735BCE8AB542}.Release|x64.ActiveCfg = Release|x64
+		{82F8544B-D1C9-4CED-955A-735BCE8AB542}.Release|x64.Build.0 = Release|x64
+		{82F8544B-D1C9-4CED-955A-735BCE8AB542}.Release|x86.ActiveCfg = Release|Win32
+		{82F8544B-D1C9-4CED-955A-735BCE8AB542}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
