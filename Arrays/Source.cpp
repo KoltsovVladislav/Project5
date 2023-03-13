@@ -1,43 +1,28 @@
 ﻿#include<iostream>
 using namespace std;
 
-//void FillRand(int arr[], const int n);
-//void Print(int arr[], const int n);
-//int Sum(const int arr[], const int n);
-//double Avg(const int arr[], const int n);
-//int minValueIn(const int arr[], const int n);
-//int maxValueIn(const int arr[], const int n);
+void FillRand(int arr[], const int n);
+void Print(int arr[], const int n);
+int Sum(const int arr[], const int n);
+double Avg(const int arr[], const int n);
+int minValueIn(const int arr[], const int n);
+int maxValueIn(const int arr[], const int n);
 
 void main()
 {
 	setlocale(LC_ALL, "");
 	const int n = 5;
 	int arr[n] = { 3,5,8 };
-	//FillRand(arr, n);
-	//Print(arr, n);
-	//cout << "Сумма элементов массива: " << Sum(arr,n) << endl;
-	//cout << "Среднее арефметическое элементов массива: " << Avg(arr, n) << endl;
-	//cout << "Минимальное значение в массиве: " << minValueIn(arr, n) << endl;
-	//cout << "Максимальное значение в массиве: " << maxValueIn(arr, n) << endl;
-	int sum = 0;
-	for (int i = 0; i < n; i++)
-	{
-		sum += arr[i];
-	}
-	cout << "Сумма элементов массива: " << sum << endl;
-	cout << "Среднее арифметическое элементов массива: " << (double)sum / n << endl;
-	int min, max;
-	min = max = 0;
-	for (int i = 0; i < n; i++)
-	{
-		if (arr[i] < min)min = arr[i];
-		if (arr[i] > max)max = arr[i];
-	}
-	cout << "Минимальное значение в массиве: " << min << endl;
-	cout << "максимальное значение в массиве: " << max << endl;
+	FillRand(arr, n);
+    Print(arr, n);
+	cout << "Сумма элементов массива: " << Sum(arr,n) << endl;
+	cout << "Среднее арефметическое элементов массива: " << Avg(arr, n) << endl;
+	cout << "Минимальное значение в массиве: " << minValueIn(arr, n) << endl;
+	cout << "Максимальное значение в массиве: " << maxValueIn(arr, n) << endl;
+
 }
 
-/*void FillRand(int arr[], const int n)
+void FillRand(int arr[], const int n)
 {
 	for (int i = 0; i < n; i++)
 	{
@@ -89,4 +74,4 @@ int maxValueIn(const int arr[], const int n)
 		if (arr[i] < max)max = arr[i];
 	}
 	return max;
-}*/
+}
